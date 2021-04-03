@@ -79,10 +79,20 @@ h3{
 .profile{
   color:#dddddd;
   background-color: #30475e;
-  width: 30%;
+  width: 16%;
   margin:auto;
   border-radius: 90%;
 padding: 40px 0;
+}
+@media (max-width:1030px )
+{
+  .profile{
+    width:60%;
+  }
+    h1{
+    positon:relative;
+    right:10%;
+  }
 }
 .welcome-p{
   font-size: 1.5rem;
