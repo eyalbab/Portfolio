@@ -17,13 +17,10 @@ h1 {
 
 }
 h2{
-  color:#eeb76b;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
   font-size: 2.7rem;
   padding:2% 0;
 }
-h3{
+h3,h2{
   color:#eeb76b;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -70,7 +67,7 @@ border-bottom: none;
   font-weight:lighter;
 }
 .coffeeBeans{
-  width: 70%;
+  width: 50%;
   border-radius: 40%;
   margin:0;
 }
@@ -81,7 +78,7 @@ border-bottom: none;
     right:10%;
   }
   .coffeeBeans{
-    width: 40%;
+    width: 35%;
   }
 }
 
