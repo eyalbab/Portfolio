@@ -10,10 +10,11 @@
 
   <!-- //*****Font Awesome****// -->
   <script src="https://kit.fontawesome.com/117b1749a2.js" crossorigin="anonymous"></script>
-  <title>Eyal Bahar</title>
+  <title>My Projects</title>
 
   <!-- //****CSS Styles****// -->
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/stylesProjects.css">
   <!-- //****Favicon****// -->
   <link rel="icon" href="icon/favicon.ico">
   <!-- //****Fonts****// -->
@@ -45,8 +46,7 @@
     </nav>
     <div class="row">
       <div class="col-lg-6">
-        <h1>I'm Eyal</h1>
-        <p class=" top-div-p">a programmer</p>
+        <h1>My Projects</h1>
       </div>
       <div class="col-lg-6">
         <img class=" coffeeBeans" src="images/coffeeBeans.png" alt="coffee Beans Img">
@@ -56,33 +56,41 @@
 
   <!-- //****Middle Container****// -->
   <div class="middle-container">
-    <div class="profile">
-      <h2>Hello.</h2>
-      <p class="welcome-p">Welcome to my Portfolio website</p>
-    </div>
     <hr class="hr-blue">
-    <!-- //****Characteristics****// -->
-    <section id="Characteristics">
+    <!-- //****Projects****// -->
+    <section id="Projects">
       <div class="row">
-        <div class="character-box col-lg-4">
-          <i class="characterIcon fas fa-angle-double-up fa-4x"></i>
-          <h3>Always Improving.</h3>
-          <p>"I’m a great believer in luck, and I find the harder I work the more I have of it."</p>
-          <p>Learning new things is my comfort zone.</p>
+        <div class="project-box col-lg-12">
+          <i class="projectIcon fas fa-gamepad fa-3x"></i>
+          <h3 class="projectHeader">This is the End?</h3>
+          <div class="projectOneGameVideo">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_njjDICvz_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <p>PC game made with UE4 and blueprint visual scripting system, a third person shooter adventure with Covid theme</p>
+          <p>Created with my partner Ron Aflalo, a gameplay video is above (Volume Warning <i class="fas fa-exclamation-triangle"></i> ).</p>
         </div>
-        <div class="character-box col-lg-4">
-          <i class="characterIcon fas fa-laptop-code fa-4x"></i>
-          <h3>Programming Skills.</h3>
-          <p>Web Development and OOP</p>
-          <p>My Stack includes:</p>
-          <p>| C | C++ | C# |</p>
-          <p>| JS | HTML | CSS |React|</p>
+        <!-- //*******Karatsuba******// -->
+        <div class="project-box col-lg-12">
+          <i class="projectIcon fas fa-calculator fa-3x"></i>
+          <h3 class="projectHeader">Karatsuba</h3>
+          <div class="project-row">
+            <img class="karatsubaGif" src="images\KaratsubaGif.Gif" alt="karatsuba-img">
+            <img src="images\Karatsuba1.PNG" alt="karatsuba-img">
+          </div>
+          <a href="https://www.github.com/eyalbab/Karatsuba" class="repository btn btn-primary" role="button"><i class="fab fa-github-square"></i> Repository</a>
+          <p>Long numbers multiplication algorithm, three implementations in C++, iterative long multiplication, recursive Karatsuba and iterative Karatsuba.</p>
         </div>
-        <div class="character-box col-lg-4">
-          <i class="characterIcon fas fa-users fa-4x"></i>
-          <h3>Part of the Team.</h3>
-          <p>Committed to contribute to the team positive environment.</p>
-          <p>I enjoy working closely with others.</p>
+        <!-- //*******Elections*******// -->
+        <div class="project-box col-lg-12">
+          <i class="projectIcon fas fa-poll fa-3x"></i>
+          <h3 class="projectHeader">Election System</h3>
+          <div class="project-row">
+            <img class="electionsImg" src="images\Elections2.PNG" alt="Elections-img">
+            <img class="electionsImg" src="images\Elections1.PNG" alt="Elections-img">
+          </div>
+        <a href="https://www.github.com/eyalbab/Elections" class="repository btn btn-primary" role="button"><i class="fab fa-github-square"></i> Repository</a>
+          <p>Elections System program using C++, including varied user menu and different kinds of Elections types.</p>
         </div>
         <hr class="hr-white">
       </div>
